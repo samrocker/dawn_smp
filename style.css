@@ -1,0 +1,182 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "montserrat";
+  color: #fff;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#cursor {
+  height: 20px;
+  width: 20px;
+  background-color: rgba(234, 255, 0, 0.333);
+  border-radius: 50%;
+  position: fixed;
+  z-index: 99;
+}
+
+#cursor-blur {
+  height: 400px;
+  width: 400px;
+  background-color: rgba(234, 255, 0, 0.117);
+  border-radius: 50%;
+  position: fixed;
+  filter: blur(50px);
+  z-index: 9;
+}
+
+#nav {
+  height: 100px;
+  width: 100%;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  padding: 0 150px;
+  gap: 70px;
+  position: fixed;
+  justify-content: center;
+  z-index: 99;
+}
+
+#nav img {
+  height: 75px;
+}
+
+#nav h4 {
+  text-transform: uppercase;
+}
+
+#background img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  position: fixed;
+  z-index: -1;
+}
+
+#main {
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.37);
+}
+
+#page1 {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  z-index: 10;
+}
+
+#page1 h1 {
+  font-size: 70px;
+  font-weight: 900;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+#page1 h1::before {
+  content: "Welcome to Dawn SMP Productions";
+  position: absolute;
+  color: #000;
+  left: -6px;
+  left: -6px;
+  -webkit-text-stroke: 1px rgb(255, 51, 0);
+  z-index: -1;
+}
+
+#page1 h3 {
+  font-size: 40px;
+  font-weight: 800;
+}
+
+#page2 {
+  height: 100vh;
+  width: 100%;
+  z-index: 10;
+}
+
+#about-us {
+  height: 65vh;
+  width: 100%;
+  background-color: transparent;
+  display: flex;
+  padding: 0 50px;
+  align-items: center;
+  justify-content: space-around;
+  z-index: 10;
+}
+
+#about-us-in {
+  width: 75%;
+  text-align: center;
+}
+
+#about-us-in h3 {
+  font-size: 65px;
+  font-weight: 900;
+  margin-bottom: 30px;
+}
+
+#about-us-in p {
+  font-size: 25px;
+  line-height: 26px;
+}
+
+#page3 {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 10;
+}
+
+#page3 h1 {
+  font-size: 70px;
+  font-weight: 900;
+  margin-top: 10px;
+  margin-left: -1vh;
+}
+
+#video-link-1 iframe{
+  width: 100vh;
+  height: 450px;
+  margin-top: 100px;
+
+}
+
+
+#page4 {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  z-index: 10;
+}
+
+#page4 h1 {
+  font-size: 70px;
+  font-weight: 900;
+  margin-top: 10px;
+}
+
+
+
+  
