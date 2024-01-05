@@ -52,7 +52,7 @@ body{
     border-radius: 20px;
 }
 
-.container-background video{
+.container-background img{
     height: 100%;
     width: 100%;
     object-fit: cover;
